@@ -1,0 +1,54 @@
+.wrapper-third
+    background: #EFFAFD;
+.third
+    display: flex
+    justify-content: space-around
+    margin-top: 191px
+    &-img
+        position: relative
+        &__image
+            position: absolute
+            bottom: 0
+            left: 0
+    &-info
+        &__title
+            font-family: Montserrat Alternates
+            font-weight: 800
+            font-size: 36px
+            margin-top: 60px
+            max-width: 491px
+        &__subtitle
+            font-size: 22px
+            margin-top: 20px
+            max-width: 446px
+.info
+    &-form
+        margin-bottom: 75px
+        margin-top: 40px
+        &__input 
+            border: 1px solid #D2D2D2
+            border-radius: 18px
+            padding: 17px 44px
+        &__button
+            background: #FFCC48
+            border-radius: 18px
+            font-weight: 500
+            font-size: 20px
+            border: none
+            padding: 13px 44px
+
+
+@media (max-width:1300px)
+    .third
+        justify-content: center
+        &-img
+            &__image
+                display: none
+@media (max-width: 660px)
+    .info
+        &-form
+            &__button 
+                margin-top: 20px
+    .third-info
+        text-align: center
+

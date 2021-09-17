@@ -1,0 +1,21 @@
+.footer
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-bottom: 40px
+    &-span
+        flex-basis: 25%
+        text-align: center
+        margin-top: 40px
+
+@media (max-width: 830px)
+    .footer-block
+        flex-basis: 50%
+
+@media (max-width: 660px)
+    .footer-block
+        flex-basis: 100%
+
+@media (max-width: 321px)
+    .footer
+        justify-content: center
